@@ -27,7 +27,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: gold;
+  color: orange;
 }
 a:focus, a:active {
   outline: none;
@@ -80,7 +80,7 @@ h3 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #15426E;
+  background: #162659;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
@@ -91,7 +91,7 @@ h3 {
 }
 .btn:hover, .btn:active, .btn:focus {
   background: #ffb833 !important;
-  color: #fff;
+  color: #162659;
   outline: none !important;
 }
 .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active {
@@ -170,7 +170,7 @@ header #fh5co-main-nav > ul li {
 }taken-out*/
 header #fh5co-main-nav > ul li a {
   padding-bottom: 5px;
-  color: #000;
+  color: #162659;
   position: relative;
   font-weight: 400;
 }

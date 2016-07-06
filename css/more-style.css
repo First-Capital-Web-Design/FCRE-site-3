@@ -1,5 +1,5 @@
-.logo{
-  background-image: url("https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/logo3grey.png?raw=true") !important;
+.placeholder{
+  background-image: url("") !important;
   background-size: 100% 100%;
   background-position: center;
   display: block;
@@ -7,6 +7,23 @@
   height: 82px;
   -webkit-transition: height 2s, width 2s;
   margin-left: 0px;
+}
+.logo{
+  background-image: url("https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/logo3grey.png?raw=true") !important;
+  background-size: 100% 100%;
+  background-position: center;
+  display: block;
+  width: 320px;
+  height: 82px;
+  -webkit-transition: height 2s, width 2s, background-image .2s;
+  margin-left: 0px;
+  position: absolute;
+  left: 56px;
+  top:10px;
+  z-index: 4;
+}
+.logo:hover{
+  background-image: url("https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/logo3orange.png?raw=true") !important;
 }
 header{
   position: relative;
@@ -82,7 +99,7 @@ header{
   border-left: 1px solid white;
 }
 .info-content{
-  width: 333px;
+  width: 331px;
   height: auto;
   position: absolute;
   left: 50px;
@@ -90,6 +107,7 @@ header{
   z-index: 1;
   text-align: left;
   background-color: white;
+  color: #162659;
   padding: 40px 20px 10px 20px;
   font-size: 17px;
   line-height: 25px;
@@ -115,6 +133,9 @@ header{
 dl{
   margin-bottom: 5px;
 }
+dl a{
+  color: white;
+}
 @media (min-width: 1000px) {
   #fh5co-main-nav{
     margin-right: 0px !important;
@@ -130,7 +151,7 @@ dl{
 }
 @media (max-width: 999px) {
   .logo{
-    margin-left: calc(50% - 160px);
+    margin-left: calc(50% - 192px);
   }
 
   header{
