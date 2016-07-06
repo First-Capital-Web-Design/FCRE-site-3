@@ -17,7 +17,7 @@ header{
   position: absolute;
   z-index: -2;
   width: 100vw;
-  background-image: url('https://github.com/First-Capital-Web-Design/FCRE-site-2/blob/gh-pages/images/home-image.jpeg?raw=true');
+  background-image: url('https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/home-image-lines-blue.jpg?raw=true');
   background-size: auto 67vw;
   height: calc(100vh - 110px);
   background-position: 0% 50%;
@@ -32,7 +32,6 @@ header{
   background-repeat: no-repeat;
   width: 38vw;
   height: 60vh;
-  opacity: .9;
 }
 .slider-button{
   width: 60px;
@@ -52,9 +51,8 @@ header{
     position: absolute;
     left: 50px;
     top: 110px;
-    width: 333px;
+    width: 331px;
     height: 32px;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     -webkit-transition: top 1.5s;
     z-index: 2;
@@ -66,8 +64,8 @@ header{
   width: auto;
   padding: 0 10px;
   font-size: 18px;
-  color: #162659;
-  background-color: white;
+  color: white;
+  background-color: #162659;
   text-align: center;
   float: left;
   z-index: 2;
@@ -81,10 +79,10 @@ header{
   color: orange;
 }
 .info-button + .info-button{
-  border-left: 2px solid #162659;
+  border-left: 1px solid white;
 }
 .info-content{
-  width: 327px;
+  width: 333px;
   height: auto;
   position: absolute;
   left: 50px;
@@ -95,9 +93,8 @@ header{
   padding: 40px 20px 10px 20px;
   font-size: 17px;
   line-height: 25px;
-  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
   -webkit-transition: top 1.5s;
-  opacity: .7;
+  border: 2px solid #162659;
 }
 .info-content-slided{
   top: 110px;
