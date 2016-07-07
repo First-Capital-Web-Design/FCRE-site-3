@@ -9,7 +9,7 @@
   margin-left: 0px;
 }
 .logo{
-  background-image: url("https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/logoblock.png?raw=true") !important;
+  background-image: url("https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/logoblockinverse.png?raw=true") !important;
   background-size: 100% 100%;
   background-position: center;
   display: block;
@@ -19,7 +19,7 @@
   margin-left: 0px;
   position: absolute;
   left: 50px;
-  top:11px;
+  top:0px;
   z-index: 4;
 }
 header{
@@ -151,6 +151,7 @@ dl a{
   .logo{
     background-image: url("https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/logoblockinverse.png?raw=true") !important;
     margin-left: calc(50% - 136px);
+    top: 10px;
     left: 0;
     width: 272px;
     height: 90px;
@@ -162,14 +163,18 @@ dl a{
   }
   .info-button-container{
     top: 150px;
+    left: calc(50vw - 166px);
   }
 
   .fh5co-navbar-brand{
     padding-bottom: 10px !important;
   }
-
+  .info-content{
+    left: calc(50vw - 166px);
+  }
   .info-content-slided{
     top: 150px;
+    left: calc(50vw - 166px);
   }
 
   .home-image{
@@ -184,7 +189,7 @@ dl a{
   .home-line{
     position: fixed;
     right: 0;
-    top: 40vh;
+    top: 50vh;
     background-image: url('https://github.com/First-Capital-Web-Design/FCRE-site-2/blob/gh-pages/images/home-line1.png?raw=true');
     background-size: 50vw auto;
     background-repeat: no-repeat;
