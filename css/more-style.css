@@ -22,9 +22,6 @@
   top:10px;
   z-index: 4;
 }
-.logo:hover{
-  background-image: url("https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/logo3orange.png?raw=true") !important;
-}
 header{
   position: relative;
   z-index: 2;
