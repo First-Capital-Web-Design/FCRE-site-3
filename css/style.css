@@ -80,7 +80,7 @@ h3 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #162659;
+  background: #154b87;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
@@ -170,7 +170,7 @@ header #fh5co-main-nav > ul li {
 }taken-out*/
 header #fh5co-main-nav > ul li a {
   padding-bottom: 5px;
-  color: #162659;
+  color: #154b87;
   position: relative;
   font-weight: 400;
   border-bottom: 2px solid transparent;
