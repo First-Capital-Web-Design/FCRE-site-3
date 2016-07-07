@@ -155,7 +155,9 @@ dl a{
     width: 272px;
     height: 90px;
   }
-
+  .home-footer{
+    height: 800px;
+  }
   header{
     height: 150px;
     padding-top:0;
@@ -315,10 +317,10 @@ dl a{
  }
 
  .page-footer{
-   height: 420px !important;
+   height: auto !important;
    bottom: -420px !important;
-   padding-left: 10vw;
- }
+   padding: 40px 10% !important;
+  }
 
  .slided{
    bottom: 0px !important;
