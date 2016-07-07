@@ -155,9 +155,6 @@ dl a{
     width: 272px;
     height: 90px;
   }
-  .home-footer{
-    height: 800px;
-  }
   header{
     height: 150px;
     padding-top:0;
@@ -197,6 +194,21 @@ dl a{
     width: 50vw;
     height: 60vh;
   }
+
+}
+
+@media (max-width: 767px) {
+  .home-footer{
+    height: 450px !important;
+  }
+
+  .page-footer{
+    bottom: -450px !important;
+   }
+
+   .slided{
+     bottom: 0px !important;
+   }
 
 }
 
