@@ -9,17 +9,17 @@
   margin-left: 0px;
 }
 .logo{
-  background-image: url("https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/logometal.png?raw=true") !important;
+  background-image: url("https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/logoblock.png?raw=true") !important;
   background-size: 100% 100%;
   background-position: center;
   display: block;
-  width: 320px;
-  height: 106px;
+  width: 331px;
+  height: 110px;
   -webkit-transition: height 2s, width 2s, background-image .2s;
   margin-left: 0px;
   position: absolute;
-  left: 56px;
-  top:10px;
+  left: 50px;
+  top:11px;
   z-index: 4;
 }
 header{
@@ -148,7 +148,9 @@ dl a{
 }
 @media (max-width: 999px) {
   .logo{
-    margin-left: calc(50% - 192px);
+    margin-left: calc(50% - 163px);
+    width: 272px;
+    height: 90px;
   }
 
   header{
@@ -233,8 +235,8 @@ dl a{
 
   .logo{
     margin-left: calc(50% - 108px);
-    width: 200px;
-    height: 53px;
+    width: 272px;
+    height: 90px;
   }
 
   header .fh5co-navbar-brand {
