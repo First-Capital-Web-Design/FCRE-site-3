@@ -90,7 +90,7 @@ h3 {
   background: #565656;
 }
 .btn:hover, .btn:active, .btn:focus {
-  background: #ffb833 !important;
+  background: orange !important;
   color: #162659;
   outline: none !important;
 }
