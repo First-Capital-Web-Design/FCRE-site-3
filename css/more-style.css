@@ -26,6 +26,7 @@ header{
   position: relative;
   z-index: 2;
   border-bottom: 2px solid #154b87;
+  -webkit-transition: height 1.5s;
 }
 .home-image{
   position: absolute;
