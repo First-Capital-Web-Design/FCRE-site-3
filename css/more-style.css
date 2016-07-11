@@ -27,7 +27,6 @@ header{
   z-index: 2;
   border-bottom: 2px solid #154b87;
   -webkit-transition: height 1.5s;
-  background-color: #fff6e6 !important;
 }
 .home-image{
   position: absolute;
@@ -36,7 +35,7 @@ header{
   background-image: url('https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/background-gif6.gif?raw=true');
   background-size: auto 67vw;
   height: calc(100vh - 110px);
-  background-position: 0% 50%;
+  background-position: 0% 20%;
   background-repeat: no-repeat;
 }
 .home-line{
@@ -259,12 +258,6 @@ dl a{
     padding: 0 15px;
   }
 
-  .info-content{
-    left:0;
-    left: 12.5vw;
-    width: 75vw;
-  }
-
   header{
     padding-top: 20px;
     width: 100vw;
@@ -306,7 +299,10 @@ dl a{
 
   .info-content{
     font-size: 14px;
-     line-height: 18px;
+    line-height: 18px;
+    left:0;
+    left: 12.5vw;
+    width: 75vw;
   }
 
   .mobile-nav{
@@ -321,7 +317,7 @@ dl a{
 
   #fh5co-main-nav {
     overflow: hidden;
-    height: 10px;
+    height: 0px;
     -webkit-transition: height 1.5s;
     background-color: white !important;
     width: 100%;
@@ -331,10 +327,10 @@ dl a{
     padding: 0;
   }
   .nav-active{
-    height: 132px !important;
+    height: 80px !important;
   }
   .nav-info-active{
-    top: 220px !important;
+    top: 190px !important;
   }
 
   .fh5co-table, .fh5co-table-cell, .fh5co-hero, .fh5co-parallax{
@@ -388,6 +384,10 @@ dl a{
   background-repeat: no-repeat;
   width: 80vw;
   height: 60vh;
+}
+
+.page-head-container{
+  margin-top: 0px;
 }
 
 }

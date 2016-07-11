@@ -87,7 +87,7 @@
 
 		<div class="mobile-nav" style="width: 25px; height: 25px; background-image: url('https://www.newfangled.com/wp-content/uploads/2014/08/stuffcontentmgrfiles2ac67e44c30a21635f8a9d498f832bc1cmisc_resized80_313_257_hamenu.png'); background-size: 25px 25px;"></div>
 
-	<div class="fh5co" style="background-image: url('https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/field.png?raw=true'); height: 230px; display: block; background-position: fixed; background-size: 130vw auto; box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3) inset; position: relative; z-index: -3; background-position: 0 35%;">
+	<div class="fh5co page-head-container" style="background-image: url('https://as2.ftcdn.net/jpg/00/63/25/25/500_F_63252574_oYRvlbXHEjHOBfBHM2sSwQoNYTVuMx60.jpg'); height: 230px; display: block; background-position: fixed; background-size: 100vw auto; box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3) inset; position: relative; z-index: -3; background-position: 0 53%;">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -115,9 +115,9 @@
 		</div>
 	</div><!-- end fh5co-common-section -->
 
-		<div class="fh5co-parallax" style="background-color: #154b87; margin-top: 70px;" data-stellar-background-ratio="0.5">
+		<div style="background-color: #154b87; height: 200px !important;">
 			<div class="overlay"></div>
-			<div class="container">
+			<div class="container" style="height: 200px !important;">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
 						<div class="fh5co-intro fh5co-table-cell">
@@ -128,6 +128,27 @@
 			</div>
 		</div><!-- end: fh5co-parallax -->
 
+		<div class="info-button-container">
+			<div class="who info-button">Who We Are
+			</div>
+			<div class="why-us info-button">Why Us
+			</div>
+			<div class="why-real-estate info-button">Why Real Estate
+			</div>
+		</div>
+
+		<div class="who-content info-content">
+			Our team of professionals has deep knowledge and experience with a wide variety of commercial property types, including office, industrial, retail, hospitality, multifamily and age-restricted residences, and in other real estate-related assets, and on all tranches of the capital stack, as well as with respect to land-use, entitlements, development, management and construction. We make that depth of knowledge and expertise available to our affiliates, partners, and institutional, high net worth and individual clients alike.
+		</div>
+
+		<div class="why-us-content info-content">
+			We accomplish our investment objectives by executing on a dual strategy of acquiring existing stabilized cash flowing assets at below their replacement costs to support stable, consistent, distributions and simultaneously acquiring opportunistic assets which we can reposition, redevelop or remarket to create value enhancement and capital appreciation.
+		</div>
+
+		<div class="why-real-estate-content info-content">
+			There are a number of options for investors looking to diversify their portfolios while creating long-term income and asset growth. Stocks, bonds and cash equivalents are the most common investment choices. In addition to stocks, bonds and mutual funds, real estate should be viewed as a significant asset class. Investing in real estate gives individuals the opportunity to grow their income along through building and land development.
+		</div>
+
 		<footer class="page-footer text-md-left" style="background-color:#444; color: white; padding: 40px 0; width: 100%;">
 			<div class="slider-button"><img src="https://github.com/First-Capital-Web-Design/FCRE-site-2/blob/gh-pages/images/arrow.png?raw=true"></div>
 			<div class="row" style="margin-right: 0;">
@@ -136,8 +157,8 @@
 						<div class="desc" style="line-height:0px; font-size: 18px;">
 							<h3 style="color: white;" class="contact-mobile">Contact Us</h3>
 							<dl class="list-terms">
-								<dt>Phone</dt>
-								<dd><div class="mobile-footer-text"><a href="callto:#">212.388.6800</a></div></dd>
+								<dt>E-mail</dt>
+								<dd><div class="mobile-footer-text"><a href="mailto:#">info@firstcapitalre.com</a></div></dd>
 							</dl>
 							<dl class="list-terms">
 								<dt>Address</dt>
@@ -148,8 +169,8 @@
 					<div class="col-md-3 col-sm-3 col-xs-5">
 						<div class="desc contact-mobile-second" style="line-height:0px; font-size: 18px; margin-top: 55px; margin-left: 30px;">
 							<dl class="list-terms">
-								<dt>E-mail</dt>
-								<dd><div class="mobile-footer-text"><a href="mailto:#">info@firstcapitalre.com</a></div></dd>
+								<dt>Phone</dt>
+								<dd><div class="mobile-footer-text"><a href="callto:#">212.388.6800</a></div></dd>
 							</dl>
 							<dl class="list-terms">
 								<dt>Fax</dt>
@@ -200,6 +221,63 @@
 				$("#fh5co-main-nav").toggleClass("nav-active");
 			});
 
+		});
+
+		$(".who").click(function(){
+
+			$(".page-footer").removeClass("slided");
+			$("#fh5co-main-nav").removeClass("nav-active");
+			$(".info-button-container").removeClass("nav-info-active");
+			$(".slider-button").removeClass("rotated");
+
+			if($(this).hasClass("info-button-active")){
+				$(".info-button").removeClass("info-button-active");
+				$(".info-content").removeClass("info-content-slided");
+			} else {
+			$(".info-button").removeClass("info-button-active");
+			$(".who").addClass("info-button-active");
+
+			$(".info-content").removeClass("info-content-slided");
+			$(".who-content").addClass("info-content-slided");
+		}
+		});
+
+		$(".why-us").click(function(){
+
+			$(".page-footer").removeClass("slided");
+			$("#fh5co-main-nav").removeClass("nav-active");
+			$(".info-button-container").removeClass("nav-info-active");
+			$(".slider-button").removeClass("rotated");
+
+			if($(this).hasClass("info-button-active")){
+				$(".info-button").removeClass("info-button-active");
+				$(".info-content").removeClass("info-content-slided");
+			} else {
+			$(".info-button").removeClass("info-button-active");
+			$(".why-us").addClass("info-button-active");
+
+			$(".info-content").removeClass("info-content-slided");
+			$(".why-us-content").addClass("info-content-slided");
+		}
+		});
+
+		$(".why-real-estate").click(function(){
+
+			$(".page-footer").removeClass("slided");
+			$("#fh5co-main-nav").removeClass("nav-active");
+			$(".info-button-container").removeClass("nav-info-active");
+			$(".slider-button").removeClass("rotated");
+
+			if($(this).hasClass("info-button-active")){
+				$(".info-button").removeClass("info-button-active");
+				$(".info-content").removeClass("info-content-slided");
+			} else {
+			$(".info-button").removeClass("info-button-active");
+			$(".why-real-estate").addClass("info-button-active");
+
+			$(".info-content").removeClass("info-content-slided");
+			$(".why-real-estate-content").addClass("info-content-slided");
+		}
 		});
 	</script>
 
