@@ -1,3 +1,6 @@
+li{
+  color: grey;
+}
 .placeholder{
   background-image: url("") !important;
   background-size: 100% 100%;
@@ -21,6 +24,73 @@
   left: 50px;
   top:0px;
   z-index: 4;
+}
+.opportunity-text-active{
+  background: #444 !important;
+}
+.opportunity-head-active{
+  -webkit-transition: all 1.2s;
+  opacity:1 !important;
+}
+.opportunity-background{
+  -webkit-transition: background-image 1.2s;
+}
+.opportunity-background-active{
+  -webkit-transition: background-image 1.2s;
+  background-image: url(https://github.com/First-Capital-Web-Design/FCRE-trust-site-1/blob/gh-pages/images/the-granary-hotel-event-blue.jpg?raw=true) !important;
+}
+.opportunity-background-blue{
+  position: absolute;
+  left: 0;
+  top: 100px;
+  width: 100vw;
+  height: calc(100vh - 40px);
+  opacity: 0;
+  background-image: url(https://github.com/First-Capital-Web-Design/FCRE-trust-site-1/blob/gh-pages/images/the-granary-hotel-event-blue.jpg?raw=true) !important;
+  -webkit-transition: all 1.5s;
+  background-size: 110% auto;
+  background-position: center;
+}
+.opportunity-background-blue-active{
+  opacity: 1;
+}
+.arrow-full-width{
+  background-image: url(https://github.com/First-Capital-Web-Design/FCRE-trust-site-1/blob/gh-pages/images/arrow-full-width.png?raw=true);
+  background-size: 100vw 80px;
+  height: 80px;
+  width: 100vw;
+  position: absolute;
+  top: calc(100vh - 20px);
+}
+.dual{
+  width: 40%;
+  height: 200px;
+  padding: 20px 5%;
+  text-align: center;
+  border: 2px solid #154b87;
+  color: #154b87;
+  float: left;
+  margin: 0 5% 50px 5%;
+  line-height: 28px;
+  -webkit-transition: all .1s ease-out, box-shadow .5s;
+  border-radius: 5px;
+  font-size: 1.5vw;
+  box-sizing: border-box;
+  background: #d1e0e0;
+}
+.dual:hover{
+  color: white;
+  background-color: orange;
+  box-shadow: 0 0 20px 0 grey, 2px 2px 2px #ffb833 inset;
+  border: 2px solid orange;
+}
+.dual-plus{
+  width: 10%;
+  font-size: 8vw;
+  text-align: center;
+  float: left;
+  color: orange;
+  padding-top: 10px;
 }
 header{
   position: relative;
@@ -64,7 +134,7 @@ header{
 }
   .info-button-container{
     position: absolute;
-    left: 50px;
+    left: calc(50% - 166px);
     top: 110px;
     width: 331px;
     height: 32px;
@@ -72,9 +142,9 @@ header{
     -webkit-transition: top 1.5s;
     z-index: 2;
     border: 2px solid #154b87;
-    border-top: 0;
     box-sizing: border-box;
     background-color: #154b87;
+    opacity: .8;
   }
 .info-button{
   width: auto;
@@ -89,34 +159,40 @@ header{
   cursor: pointer !important;
 }
 .info-button-active{
-  background: orange;
-  color:#154b87;
+  color: orange;
 }
 .info-button:hover{
-  background: orange;
-  color:white;
+  color:orange;
 }
 .info-button + .info-button{
   border-left: 1px solid white;
 }
 .info-content{
   width: 331px;
-  height: auto;
+  height: 0;
+  max-height: 0px;
   position: absolute;
-  left: 50px;
-  top: -270px;
+  left: calc(50% - 166px);
+  top: 10px;
   z-index: 1;
   text-align: left;
   background-color: white;
   color: #154b87;
-  padding: 40px 20px 10px 20px;
+  padding: 0px;
   font-size: 17px;
   line-height: 25px;
-  -webkit-transition: top 1.5s;
-  border: 2px solid #154b87;
+  -webkit-transition: max-height 1.5s;
+  border: 2px solid transparent;
+  overflow: hidden;
+  opacity: .8;
 }
 .info-content-slided{
-  top: 110px;
+  top: 142px;
+  height: auto;
+  border: 2px solid #154b87;
+  padding: 10px 20px 10px 20px;
+  max-height: 500px;
+
 }
 .visible{
   display: block;
@@ -149,6 +225,9 @@ dl a{
 }
 .hover-orange:hover{
   color: orange !important;
+}
+.date{
+  text-decoration: overline;;
 }
 @media (min-width: 1000px) {
   #fh5co-main-nav{
@@ -187,7 +266,7 @@ dl a{
     left: calc(50vw - 166px);
   }
   .info-content-slided{
-    top: 150px;
+    top: 182px;
     left: calc(50vw - 166px);
   }
 
@@ -250,6 +329,7 @@ dl a{
     width: 100%;
     height: 24px;
     top: 100px;
+    opacity: 1;
   }
 
   .info-button{
