@@ -234,7 +234,12 @@ dl a{
   color: orange !important;
 }
 .date{
-  text-decoration: overline;;
+  text-decoration: overline;
+  color: orange;
+}
+.news:hover h1{
+  -webkit-transition: all 1s;
+  color: orange !important;
 }
 @media (min-width: 1000px) {
   #fh5co-main-nav{
