@@ -68,7 +68,7 @@ p{
   height: 80px;
   width: 100vw;
   position: absolute;
-  top: calc(100vh - 20px);
+  bottom: 0;
 }
 .dual{
   width: 40%;
