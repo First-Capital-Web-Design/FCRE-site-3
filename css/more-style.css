@@ -130,14 +130,16 @@ header{
   background-repeat: no-repeat;
 }
 .home-line{
-  position: fixed;
-  right: 0;
-  top: 55vh;
-  background-image: url('https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/home-line2.png?raw=true');
-  background-size: 38vw auto;
+  position: absolute;;
+  left:25vw;
+  top: 20vh;
+  background-image: url('https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/home-line.png?raw=true');
+  background-size: contain;
   background-repeat: no-repeat;
-  width: 38vw;
-  height: 60vh;
+  background-position: center;
+  width: 50vw;
+  height: 30vh;
+  background-color: rgba(0,0,0,.4);
 }
 .slider-button{
   width: 60px;
@@ -305,16 +307,6 @@ dl a{
     margin: 0;
   }
 
-  .home-line{
-    position: fixed;
-    right: 0;
-    top: 50vh;
-    background-image: url('https://github.com/First-Capital-Web-Design/FCRE-site-2/blob/gh-pages/images/home-line1.png?raw=true');
-    background-size: 50vw auto;
-    background-repeat: no-repeat;
-    width: 50vw;
-    height: 60vh;
-  }
   .opportunity-background{
     background-size: auto 100% !important;
   }
@@ -477,14 +469,9 @@ dl a{
 }
 
 .home-line{
-  position: fixed;
-  right: 0;
-  top: 40vh;
-  background-image: url('https://github.com/First-Capital-Web-Design/FCRE-site-2/blob/gh-pages/images/home-line1.png?raw=true');
-  background-size: 80vw auto;
-  background-repeat: no-repeat;
+  left:10vw;
   width: 80vw;
-  height: 60vh;
+  height: 30vh;
 }
 
 .page-head-container{
