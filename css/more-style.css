@@ -269,6 +269,10 @@ dl a{
     padding-bottom: 0;
     height: 110px;
   }
+  header #fh5co-main-nav > ul {
+    position: fixed;
+    right: 50px;
+  }
 }
 @media (max-width: 999px) {
   .logo{
