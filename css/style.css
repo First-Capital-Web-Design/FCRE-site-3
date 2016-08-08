@@ -47,7 +47,7 @@ span {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #154b87;
+  color: #140e89;
   font-family: "brandon-grotesque", Arial, serif;
   font-weight: 300;
   margin: 0 0 30px 0;
@@ -80,7 +80,7 @@ h3 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #154b87;
+  background: #140e89;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
@@ -170,7 +170,7 @@ header #fh5co-main-nav > ul li {
 }taken-out*/
 header #fh5co-main-nav > ul li a {
   padding-bottom: 5px;
-  color: #154b87;
+  color: #140e89;
   position: relative;
   font-weight: 400;
   border-bottom: 2px solid transparent;
@@ -182,7 +182,7 @@ header #fh5co-main-nav > ul li a.active:before {
   content: '';
   bottom: 2px;
   right: 0px;
-  background: #15426E;
+  background: #140e89;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
