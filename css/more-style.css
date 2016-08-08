@@ -27,17 +27,17 @@ p{
   margin-left: 0px;
 }
 .logo{
-  background-image: url("https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/logo4.png?raw=true") !important;
+  background-image: url("https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/first-capital-logo.png?raw=true") !important;
   background-size: 100% 100%;
   background-position: center;
   display: block;
-  width: 331px;
-  height: 110px;
+  width: 274px;
+  height: 60px;
   -webkit-transition: height 2s, width 2s, background-image .2s;
   margin-left: 0px;
   position: absolute;
-  left: 50px;
-  top:0px;
+  left: 35px;
+  top: 25px;
   z-index: 4;
 }
 .opportunity-head{
