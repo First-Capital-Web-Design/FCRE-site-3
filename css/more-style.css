@@ -270,11 +270,11 @@ dl a{
 }
 @media (max-width: 999px) {
   .logo{
-    margin-left: calc(50% - 136px);
-    top: 10px;
+    margin-left: calc(50% - 107.5px);
+    top: 30px;
     left: 0;
-    width: 272px;
-    height: 90px;
+    width: 215px;
+    height: 47px;
   }
   header{
     height: 150px;
@@ -371,13 +371,6 @@ dl a{
     width: 100vw;
     padding-bottom: 20px;
     height: 118px;
-  }
-
-  .logo{
-    margin-left: calc(50% - 136px);
-    left: 0;
-    width: 272px;
-    height: 90px;
   }
 
   header .fh5co-navbar-brand {

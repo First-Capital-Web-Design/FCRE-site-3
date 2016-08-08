@@ -75,7 +75,7 @@
 				</div>
 				<nav id="fh5co-main-nav" role="navigation">
 					<ul>
-						<li><a href="about.html" class="active">About</a></li>
+						<li><a href="#about-content" class="active">Who We Are</a></li>
 						<li><a href="programs.html">Investment Programs</a></li>
 						<li><a href="news.html">Press</a></li>
 					</ul>
@@ -96,22 +96,7 @@
 						<div class="col-md-12 col-sm-12 ">
 							<span class="number-holder"></span>
 							<div class="desc">
-								<h1 class="opportunity-head" style="color: #154b87; padding: 20px;">WHO WE ARE</h1>
-								<p  class="opportunity-text" style="text-align:justify; color: white; padding: 20px; font-size: 17px; line-height: 23px;">
-										At its core DNA, First Capital Real Estate Investments LLC is comprised of an
-										entrepreneurial spirit and investor centric investment strategy. These
-										qualities paired with the leadership of Suneet Singal have led First Capital
-										from humble beginnings to becoming an authority in the alternative asset
-										management industry. Opening its doors in 2003, First Capital is a privately
-										held commercial and residential real estate finance and banking firm. Since
-										its inception it has developed into a vertically-integrated company, First
-										Capital is actively involved in real estate acquisition, land development,
-										residential and commercial construction, and retail operations. FCREI has
-										three strategic components to its business. The Company sponsors a public,
-										nontraded Real Estate Investment Trust and owns the external advisor to that
-										REIT and has private holdings including development projects, and retail and
-										operating companies.
-								 </p>
+
 							</div>
 						</div>
 					</div>
@@ -122,42 +107,46 @@
 
 
 
-	<div id="fh5co-common-section" style="margin-top: 40px; height: calc(100vh - 100px)">
-		<div class="container">
+	<div id="fh5co-common-section" style="margin-top: 40px; height: calc(100vh - 100px); position: relative;">
+		<div class="container" id="about-content">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="col-md-12 col-sm-12 ">
 						<span class="number-holder"></span>
 						<div class="desc">
 
-							<h2 class="section-head" style="text-align:center; color: #154b87; width: 500px; border: 2px solid #154b87; padding: 20px; margin-left: calc(50% - 250px)">OUR INVESTMENT OBJECTIVES</h2>
-							<p  style="text-align:justify; margin-top: 60px;">Our primary investment objectives are:</p>
-									<ul>
-										<li>Donec sit amet orci facilisis.</li>
-										<li>Donec sed tortor eu nibh condimentum pulvinar.</li>
-										<li>Donec sed tortor eu nibh.</li>
-										<li>Etiam consequat felis sit amet libero auctor.</li>
-										<li>Donec dignissim iaculis metus.</li>
-									</ul>
+							<h2 class="section-head" style="text-align:center; color: #154b87; width: 200px; border: 2px solid #154b87; padding: 20px; margin-left: calc(50% - 100px)">Who We Are</h2>
 
-							<p>
-								  Donec dignissim iaculis metus,
-									sit amet auctor lorem pharetra at.
-							</p>
+							<p  class="opportunity-text" style="text-align:justify; color: white; padding: 20px; font-size: 17px; line-height: 23px;">
+									At its core DNA, First Capital Real Estate Investments LLC is comprised of an
+									entrepreneurial spirit and investor centric investment strategy. These
+									qualities paired with the leadership of Suneet Singal have led First Capital
+									from humble beginnings to becoming an authority in the alternative asset
+									management industry. Opening its doors in 2003, First Capital is a privately
+									held commercial and residential real estate finance and banking firm. Since
+									its inception it has developed into a vertically-integrated company, First
+									Capital is actively involved in real estate acquisition, land development,
+									residential and commercial construction, and retail operations. FCREI has
+									three strategic components to its business. The Company sponsors a public,
+									nontraded Real Estate Investment Trust and owns the external advisor to that
+									REIT and has private holdings including development projects, and retail and
+									operating companies.
+							 </p>
 
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div class="arrow-full-width" style="background-image: url(https://github.com/First-Capital-Web-Design/FCRE-trust-site-1/blob/gh-pages/images/arrow-full-width-blue.png?raw=true)"></div>
 	</div><!-- end fh5co-common-section -->
 
-		<div style="background-color: #154b87; height: 200px !important;">
+		<div style="background-color: #154b87; height: 200px !important; padding: 60px 0;">
 			<div class="overlay"></div>
 			<div class="container" style="height: 200px !important;">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
-						<div class="fh5co-intro fh5co-table-cell">
+					<div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
+						<div class="fh5co-intro">
 							<h1 class="text-center" style="text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.5)"><a href="programs.html"  class="hover-orange" style="color:white;">Learn More About Our Investment Programs</a></h1>
 						</div>
 					</div>
@@ -231,6 +220,8 @@
 	<script src="js/script.js"> </script>
 
 	<script>
+
+
 		$(document).ready(function(){
 
 			$(".mobile-nav").click(function(){
@@ -243,63 +234,6 @@
 
 			});
 
-		$(".who").click(function(){
-
-			$(".page-footer").removeClass("slided");
-			$("#fh5co-main-nav").removeClass("nav-active");
-			$(".info-button-container").removeClass("nav-info-active");
-			$(".slider-button").removeClass("rotated");
-
-			if($(this).hasClass("info-button-active")){
-				$(".info-button").removeClass("info-button-active");
-				$(".info-content").removeClass("info-content-slided");
-			} else {
-			$(".info-button").removeClass("info-button-active");
-			$(".who").addClass("info-button-active");
-
-			$(".info-content").removeClass("info-content-slided");
-			$(".who-content").addClass("info-content-slided");
-		}
-		});
-
-		$(".why-us").click(function(){
-
-			$(".page-footer").removeClass("slided");
-			$("#fh5co-main-nav").removeClass("nav-active");
-			$(".info-button-container").removeClass("nav-info-active");
-			$(".slider-button").removeClass("rotated");
-
-			if($(this).hasClass("info-button-active")){
-				$(".info-button").removeClass("info-button-active");
-				$(".info-content").removeClass("info-content-slided");
-			} else {
-			$(".info-button").removeClass("info-button-active");
-			$(".why-us").addClass("info-button-active");
-
-			$(".info-content").removeClass("info-content-slided");
-			$(".why-us-content").addClass("info-content-slided");
-		}
-		});
-
-		$(".why-real-estate").click(function(){
-
-			$(".page-footer").removeClass("slided");
-			$("#fh5co-main-nav").removeClass("nav-active");
-			$(".info-button-container").removeClass("nav-info-active");
-			$(".slider-button").removeClass("rotated");
-
-			if($(this).hasClass("info-button-active")){
-				$(".info-button").removeClass("info-button-active");
-				$(".info-content").removeClass("info-content-slided");
-			} else {
-			$(".info-button").removeClass("info-button-active");
-			$(".why-real-estate").addClass("info-button-active");
-
-			$(".info-content").removeClass("info-content-slided");
-			$(".why-real-estate-content").addClass("info-content-slided");
-		}
-		});
-
 		$(".opportunity-text").hover(function(){
 				$(".opportunity-background-blue").addClass("opportunity-background-blue-active");
 				$(".opportunity-text").addClass("opportunity-text-active");
@@ -309,6 +243,20 @@
 				$(".opportunity-text").removeClass("opportunity-text-active");
 				$(".opportunity-head").removeClass("opportunity-head-active");
 		});
+
+		var $root = $('html, body');
+$('a').click(function() {
+		var href = $.attr(this, 'href');
+		$root.animate({
+				scrollTop: $(href).offset().top
+		}, 800, function () {
+			$(".property-icon-content").css("opacity","1");
+			$(".pop-up-background").addClass("pop-up-background-active");
+			if($(this).hasClass("myrtle")){$(".myrtle-beach-property").children(".property-icon-content").css("display", "block");}
+
+		});
+		return false;
+});
 
 	});
 
