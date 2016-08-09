@@ -269,8 +269,9 @@ dl a{
     padding-bottom: 0;
     height: 110px;
   }
-  header #fh5co-main-nav > ul {
+  header #fh5co-main-nav {
     right: 50px;
+    position: absolute;
   }
 }
 @media (max-width: 999px) {
