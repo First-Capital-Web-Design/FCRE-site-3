@@ -12,6 +12,16 @@ p{
 .wf-loading h1, .wf-loading h2, .wf-loading h3, .wf-loading h4, .wf-loading p, .wf-loading li, .wf-loading{
  visibility: hidden;
 }
+.button{
+  background-color: #154b87;
+  width: 118px;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0px;
+  -webkit-transition: all .1s ease-out;
+}
 .section-head{
   margin-top: 60px;
   margin-bottom: 70px;
