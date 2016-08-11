@@ -317,10 +317,7 @@ dl a{
   text-decoration: overline;
   color: orange;
 }
-.news:hover h1{
-  -webkit-transition: all 1s;
-  color: orange !important;
-}
+
 @media (min-width: 1000px) {
   #fh5co-main-nav{
     margin-right: 0px !important;
@@ -532,8 +529,7 @@ dl a{
 .contact-mobile-second{
   margin-top: 0 !important;
 }
-.contact-mobile-centered{
-}
+
 .center-banner {
   margin-top: -135px !important;
 }
