@@ -599,4 +599,7 @@ dl a{
   margin-left: 0px;
   width: 100%;
 }
+.row{
+  margin-right: 0;
+}
 }
