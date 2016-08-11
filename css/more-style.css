@@ -21,6 +21,12 @@ p{
   text-align: center;
   margin-top: 0px;
   -webkit-transition: all .1s ease-out;
+  transition: all .1s ease-out;
+  border: 0px solid transparent;
+}
+.button:hover{
+  background-color: orange;
+  color: #154b87;
 }
 .section-head{
   margin-top: 60px;
@@ -34,6 +40,7 @@ p{
   width: 320px;
   height: 82px;
   -webkit-transition: height 2s, width 2s;
+  transition: height 2s, width 2s;
   margin-left: 0px;
 }
 .logo{
@@ -44,6 +51,7 @@ p{
   width: 274px;
   height: 60px;
   -webkit-transition: height 2s, width 2s, background-image .2s;
+  transition: height 2s, width 2s, background-image .2s;
   margin-left: 0px;
   position: absolute;
   left: 35px;
@@ -60,15 +68,18 @@ p{
 .opportunity-text{
    background:rgba(50, 50, 50, .7);
    -webkit-transition: all .5s;
+   transition: all .5s;
 }
 .opportunity-text:hover{
    background:rgba(50, 50, 50, 1);
 }
 .opportunity-background{
   -webkit-transition: background-image 1.2s;
+  transition: background-image 1.2s;
 }
 .opportunity-background-active{
   -webkit-transition: background-image 1.2s;
+  transition: background-image 1.2s;
   background-image: url(https://github.com/First-Capital-Web-Design/FCRE-trust-site-1/blob/gh-pages/images/the-granary-hotel-event-blue.jpg?raw=true) !important;
 }
 .opportunity-background-blue{
@@ -80,6 +91,7 @@ p{
   opacity: 0;
   background-image: url(https://github.com/First-Capital-Web-Design/FCRE-trust-site-1/blob/gh-pages/images/the-granary-hotel-event-blue.jpg?raw=true) !important;
   -webkit-transition: all 1.5s;
+  transition: all 1.5s;
   background-size: 110% auto;
   background-position: center;
 }
@@ -105,6 +117,7 @@ p{
   margin: 0 5% 50px 5%;
   line-height: 28px;
   -webkit-transition: all .1s ease-out, box-shadow .5s;
+  transition: all .1s ease-out, box-shadow .5s;
   border-radius: 5px;
   box-sizing: border-box;
   background: #d1e0e0;
@@ -128,6 +141,7 @@ header{
   z-index: 2;
   border-bottom: 2px solid #151787;
   -webkit-transition: height 1.5s;
+  transition: height 1.5s;
 }
 .home-image{
   position: absolute;
@@ -160,6 +174,7 @@ header{
   top: -60px;
   border-radius: 10px 10px 0 0;
   -webkit-transition: all 1.5s ease-out;
+  transition: all 1.5s ease-out;
   opacity: .83;
 }
 .slided{
@@ -173,6 +188,7 @@ header{
     height: 32px;
     overflow: hidden;
     -webkit-transition: top 1.5s;
+    transition: top 1.5s;
     z-index: 2;
     border: 2px solid #151787;
     box-sizing: border-box;
@@ -215,6 +231,7 @@ header{
   font-size: 17px;
   line-height: 25px;
   -webkit-transition: max-height 1.5s;
+  transition: max-height 1.5s;
   border: 2px solid transparent;
   overflow: hidden;
   opacity: .8;
@@ -232,6 +249,7 @@ header{
 }
 .page-footer{
   -webkit-transition: bottom 1.5s;
+  transition: bottom 1.5s;
 }
 .rotated {
     -webkit-transform: rotate(180deg);
@@ -251,6 +269,7 @@ dl a{
   width: 100%;
   padding-bottom: 10px;
   -webkit-transition: box-shadow .5s ease-out;
+  transition: box-shadow .5s ease-out;
 }
 .shadow:hover{
   box-shadow: 0px 5px 20px 3px orange;
@@ -426,6 +445,7 @@ dl a{
     overflow: hidden;
     height: 0px;
     -webkit-transition: height 1.5s;
+    transition: height 1.5s;
     background-color: white !important;
     width: 100%;
     z-index: 10;
