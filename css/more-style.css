@@ -13,7 +13,7 @@ p{
  visibility: hidden;
 }
 .button{
-  background-color: #154b87;
+  background-color: #151787;
   width: 118px;
   height: 50px;
   color: white;
@@ -26,7 +26,7 @@ p{
 }
 .button:hover{
   background-color: orange;
-  color: #154b87;
+  color: #151787;
 }
 .section-head{
   margin-top: 60px;
@@ -58,46 +58,82 @@ p{
   top: 25px;
   z-index: 4;
 }
-.opportunity-head{
-  font-size: 45px;
-  width: 400px;
-  margin-left: calc(50% - 200px);
-  text-align: center;
-  margin-bottom: 15px;
+/*ADVISOR AND BOARD*/
+.board-info-container{
+  height: auto;
+  width: calc(100% - 200px);
+  float: left;
+  background-color: white;
+  padding: 50px;
+  box-shadow: 1px 1px 8px grey;
 }
-.opportunity-text{
-   background:rgba(50, 50, 50, .7);
-   -webkit-transition: all .5s;
-   transition: all .5s;
-}
-.opportunity-text:hover{
-   background:rgba(50, 50, 50, 1);
-}
-.opportunity-background{
-  -webkit-transition: background-image 1.2s;
-  transition: background-image 1.2s;
-}
-.opportunity-background-active{
-  -webkit-transition: background-image 1.2s;
-  transition: background-image 1.2s;
-  background-image: url(https://github.com/First-Capital-Web-Design/FCRE-trust-site-1/blob/gh-pages/images/the-granary-hotel-event-blue.jpg?raw=true) !important;
-}
-.opportunity-background-blue{
-  position: absolute;
-  left: 0;
-  top: 100px;
-  width: 100vw;
-  height: calc(100vh - 40px);
-  opacity: 0;
-  background-image: url(https://github.com/First-Capital-Web-Design/FCRE-trust-site-1/blob/gh-pages/images/the-granary-hotel-event-blue.jpg?raw=true) !important;
-  -webkit-transition: all 1.5s;
-  transition: all 1.5s;
-  background-size: 110% auto;
+.board-member-picture{
+  height: 45%;
+  width: 55%;
+  background-size: auto 95%;
+  background-repeat: no-repeat;
   background-position: center;
+  float: left;
 }
-.opportunity-background-blue-active{
-  opacity: 1;
+.board-member-header{
+  width: calc(100%);
+  padding-bottom: 30px;
+  height: auto;
+  color: blue;
+  float: left;
 }
+.board-member-header h1{
+  font-size: 50px;
+  line-height: 50px;
+  color: #151787;
+}
+.board-member-header h2{
+  font-size: 20px;
+  color: grey;
+  line-height: 0;
+  margin-top: -20px;
+}
+.board-member-info{
+  height: 55%;
+  width: 100%;
+  text-align: justify;
+  float: left;
+}
+.board-member-info p{
+  font-size: 15px;
+  line-height: 18px;
+}
+.board-members-container{
+  height: 300px;
+  padding-top: 140px;
+  width: 200px;
+  float: left;
+  text-align: center;
+  line-height: 26px;
+}
+.name{
+  width: 100%;
+  border: 1px solid grey;
+  border-right: 0;
+  padding: 7px 0;
+  color: grey;
+  background-color: white;
+  border-left: 8px solid grey;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  cursor: pointer;
+}
+.name+.name{
+  border-top: 0;
+}
+.name:hover{
+  color: orange;
+  border-left-color: orange;
+  padding-right: 20px;
+  margin-left: -10px;
+  width: 215px;
+}
+/**/
 .arrow-full-width{
   background-image: url(https://github.com/First-Capital-Web-Design/FCRE-trust-site-1/blob/gh-pages/images/arrow-full-width.png?raw=true);
   background-size: 100vw 80px;
@@ -519,5 +555,48 @@ dl a{
 .dual-plus{
   width: 100%;
   font-size: 60px;
+}
+.board-info-container{
+  height: auto;;
+  width: calc(100%);
+  background-color: white;
+  padding: 10px;
+}
+.board-member-header{
+  width: calc(100%);
+  padding: 0px;
+  height: auto;
+  color: blue;
+  float: left;
+}
+.board-member-header h1{
+  font-size: 30px;
+  line-height: 35px;
+  color: #154b87;
+}
+.board-member-header h2{
+  font-size: 15px;
+  color: grey;
+  line-height: 0;
+  margin-top: -20px;
+}
+.board-member-info p{
+  font-size: 13px;
+  line-height: 16px;
+}
+.board-members-container{
+  height: auto;
+  padding-top: 0px;
+  width: 100%;
+  margin-top: 100px;
+}
+.name{
+  border-left: 0 solid transparent;
+}
+.name:hover{
+  color: orange;
+  padding-right: 0px;
+  margin-left: 0px;
+  width: 100%;
 }
 }
