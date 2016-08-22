@@ -141,36 +141,7 @@ p{
   position: absolute;
   bottom: 0;
 }
-.dual{
-  width: 40%;
-  height: 220px;
-  padding: 40px 5%;
-  text-align: center;
-  border: 2px solid #151787;
-  color: #151787;
-  float: left;
-  margin: 0 5% 50px 5%;
-  line-height: 28px;
-  -webkit-transition: all .1s ease-out, box-shadow .5s;
-  transition: all .1s ease-out, box-shadow .5s;
-  border-radius: 5px;
-  box-sizing: border-box;
-  background: #d1e0e0;
-}
-.dual:hover{
-  color: white;
-  background-color: orange;
-  box-shadow: 0 0 20px 0 grey, 2px 2px 2px #ffb833 inset;
-  border: 2px solid orange;
-}
-.dual-plus{
-  width: 10%;
-  font-size: 8vw;
-  text-align: center;
-  float: left;
-  color: orange;
-  padding-top: 10px;
-}
+
 header{
   position: relative;
   z-index: 2;
@@ -319,283 +290,255 @@ dl a{
 }
 
 @media (min-width: 1000px) {
-  #fh5co-main-nav{
-    margin-right: 0px !important;
-    margin-top: -115px;
-    float: right!important;
-    position: relative;
-  }
-  header{
-    padding-top: 10px;
-    padding-bottom: 0;
-    height: 110px;
-  }
-  header #fh5co-main-nav {
-    right: 50px;
-    position: absolute;
-  }
+
+          #fh5co-main-nav{
+            margin-right: 0px !important;
+            margin-top: -115px;
+            float: right!important;
+            position: relative;
+          }
+          header{
+            padding-top: 10px;
+            padding-bottom: 0;
+            height: 110px;
+          }
+          header #fh5co-main-nav {
+            right: 50px;
+            position: absolute;
+          }
+
 }
 @media (max-width: 999px) {
-  .logo{
-    margin-left: calc(50% - 107.5px);
-    top: 30px;
-    left: 0;
-    width: 215px;
-    height: 47px;
-  }
-  header{
-    height: 150px;
-    padding-top:0;
-  }
-  .info-button-container{
-    top: 150px;
-    left: calc(50vw - 166px);
-  }
 
-  .fh5co-navbar-brand{
-    padding-bottom: 10px !important;
-  }
-  .info-content{
-    left: calc(50vw - 166px);
-  }
-  .info-content-slided{
-    top: 182px;
-    left: calc(50vw - 166px);
-  }
+          .logo{
+            margin-left: calc(50% - 107.5px);
+            top: 30px;
+            left: 0;
+            width: 215px;
+            height: 47px;
+          }
+          header{
+            height: 150px;
+            padding-top:0;
+          }
+          .info-button-container{
+            top: 150px;
+            left: calc(50vw - 166px);
+          }
 
-  .home-image{
-    height: calc(100vh - 150px) !important;
-    background-size: auto 100vh !important;
-    background-position: center;
-    width: 100vw;
-    padding: 0;
-    margin: 0;
-  }
+          .fh5co-navbar-brand{
+            padding-bottom: 10px !important;
+          }
+          .info-content{
+            left: calc(50vw - 166px);
+          }
+          .info-content-slided{
+            top: 182px;
+            left: calc(50vw - 166px);
+          }
 
-  .opportunity-background{
-    background-size: auto 100% !important;
-  }
+          .home-image{
+            height: calc(100vh - 150px) !important;
+            background-size: auto 100vh !important;
+            background-position: center;
+            width: 100vw;
+            padding: 0;
+            margin: 0;
+          }
+
+          .opportunity-background{
+            background-size: auto 100% !important;
+          }
 }
 
 @media (max-width: 767px) {
-  .home-footer{
-    height: 450px !important;
-  }
 
-  .page-footer{
-    bottom: -450px !important;
-   }
+          .home-footer{
+            height: 450px !important;
+          }
 
-   .slided{
-     bottom: 0px !important;
-   }
+          .page-footer{
+            bottom: -450px !important;
+           }
+
+           .slided{
+             bottom: 0px !important;
+           }
 
 }
 
 @media (min-width: 568px) {
 
-  .mobile-nav{
-    display: none !important;
-  }
+          .mobile-nav{
+            display: none !important;
+          }
 
 }
-
 @media (max-width: 568px) {
 
-  header #fh5co-main-nav > ul li {
-    display: block;
-    margin-left: 0;
-    margin-bottom: 0px;
-    font-size: 15px;
-  }
-
-  .info-button-container{
-    left:0;
-    width: 100%;
-    height: 24px;
-    top: 100px;
-    opacity: 1;
-  }
-
-  .info-button{
-    width: 33vw;
-    font-size: 15px;
-    padding: 0 15px;
-  }
-
-  header{
-    padding-top: 20px;
-    width: 100vw;
-    padding-bottom: 20px;
-    height: 118px;
-  }
-
-  header .fh5co-navbar-brand {
-    padding-bottom: 0;
-  }
-
-  .home-image{
-    height: calc(100vh - 118px) !important;
-    background-size: auto 100vh !important;
-    width: 100vw;
-    padding: 0;
-    margin: 0;
-  }
-
-  .home-image-text{
-    font-size: 35px !important;
-  }
-
-  body{
-    width: 100%;
-    overflow-x: hidden;
-  }
-
-  .info-content-slided{
-    top: 90px;
-  }
-
-  .info-content{
-    font-size: 14px;
-    line-height: 18px;
-    left:0;
-    left: 12.5vw;
-    width: 75vw;
-  }
-
-  .mobile-nav{
-    display: block;
-    position: absolute;
-    right: 25px;
-    top: 25px;
-    width: 20px;
-    height: 20px;
-    z-index: 6;
-  }
-
-  #fh5co-main-nav {
-    overflow: hidden;
-    height: 0px;
-    -webkit-transition: height 1.5s;
-    transition: height 1.5s;
-    background-color: white !important;
-    width: 100%;
-    z-index: 10;
-  }
-  .container{
-    padding: 0;
-  }
-  .nav-active{
-    height: 80px !important;
-  }
-  .nav-info-active{
-    top: 190px !important;
-  }
-
-  .fh5co-table, .fh5co-table-cell, .fh5co-hero, .fh5co-parallax{
-    height: 440px !important;
-  }
-
-  .page-footer h3 {
-    font-size: 15px;
-    line-height: 0;
- }
-
- .page-footer{
-   height: auto !important;
-   bottom: -420px !important;
-   padding: 40px 10% !important;
-  }
-
-  .home-footer{
-    height: 420px !important;
-  }
-
- .slided{
-   bottom: 0px !important;
- }
-
- .list-terms{
-   font-size: 15px;
-}
-
- .mobile-footer-text{
-   font-size: 14px;
- }
- .contact-mobile{
-   display: none;
- }
-
-.contact-mobile-second{
-  margin-top: 0 !important;
-}
-
-.center-banner {
-  margin-top: -135px !important;
-}
-
-.home-line{
-  left:10vw;
-  width: 80vw;
-  height: 30vh;
-}
-
-.page-head-container{
-  margin-top: 0px;
-}
-.dual{
-  width: 100%;
-  margin: 0;
-  font-size: 15px;
-}
-.dual-plus{
-  width: 100%;
-  font-size: 60px;
-}
-.board-info-container{
-  height: auto;;
-  width: calc(100%);
-  background-color: white;
-  padding: 10px;
-}
-.board-member-header{
-  width: calc(100%);
-  padding: 0px;
-  height: auto;
-  color: blue;
-  float: left;
-}
-.board-member-header h1{
-  font-size: 30px;
-  line-height: 35px;
-  color: #154b87;
-}
-.board-member-header h2{
-  font-size: 15px;
-  color: grey;
-  line-height: 0;
-  margin-top: -20px;
-}
-.board-member-info p{
-  font-size: 13px;
-  line-height: 16px;
-}
-.board-members-container{
-  height: auto;
-  padding-top: 0px;
-  width: 100%;
-  margin-top: 100px;
-}
-.name{
-  border-left: 0 solid transparent;
-}
-.name:hover{
-  color: orange;
-  padding-right: 0px;
-  margin-left: 0px;
-  width: 100%;
-}
-.row{
-  margin-right: 0;
-}
+          header #fh5co-main-nav > ul li {
+            display: block;
+            margin-left: 0;
+            margin-bottom: 0px;
+            font-size: 15px;
+          }
+          .info-button-container{
+            left:0;
+            width: 100%;
+            height: 24px;
+            top: 100px;
+            opacity: 1;
+          }
+          .info-button{
+            width: 33vw;
+            font-size: 15px;
+            padding: 0 15px;
+          }
+          header{
+            padding-top: 20px;
+            width: 100vw;
+            padding-bottom: 20px;
+            height: 118px;
+          }
+          header .fh5co-navbar-brand {
+            padding-bottom: 0;
+          }
+          .home-image{
+            height: calc(100vh - 118px) !important;
+            background-size: auto 100vh !important;
+            width: 100vw;
+            padding: 0;
+            margin: 0;
+          }
+          .home-image-text{
+            font-size: 35px !important;
+          }
+          body{
+            width: 100%;
+            overflow-x: hidden;
+          }
+          .info-content-slided{
+            top: 90px;
+          }
+          .info-content{
+            font-size: 14px;
+            line-height: 18px;
+            left:0;
+            left: 12.5vw;
+            width: 75vw;
+          }
+          .mobile-nav{
+            display: block;
+            position: absolute;
+            right: 25px;
+            top: 25px;
+            width: 20px;
+            height: 20px;
+            z-index: 6;
+          }
+          #fh5co-main-nav {
+            overflow: hidden;
+            height: 0px;
+            -webkit-transition: height 1.5s;
+            transition: height 1.5s;
+            background-color: white !important;
+            width: 100%;
+            z-index: 10;
+          }
+          .container{
+            padding: 0;
+          }
+          .nav-active{
+            height: 80px !important;
+          }
+          .nav-info-active{
+            top: 190px !important;
+          }
+          .fh5co-table, .fh5co-table-cell, .fh5co-hero, .fh5co-parallax{
+            height: 440px !important;
+          }
+          .page-footer h3 {
+            font-size: 15px;
+            line-height: 0;
+         }
+         .page-footer{
+           height: auto !important;
+           bottom: -420px !important;
+           padding: 40px 10% !important;
+          }
+          .home-footer{
+            height: 420px !important;
+          }
+         .slided{
+           bottom: 0px !important;
+         }
+         .list-terms{
+           font-size: 15px;
+        }
+         .mobile-footer-text{
+           font-size: 14px;
+         }
+         .contact-mobile{
+           display: none;
+         }
+        .contact-mobile-second{
+          margin-top: 0 !important;
+        }
+        .center-banner {
+          margin-top: -135px !important;
+        }
+        .home-line{
+          left:10vw;
+          width: 80vw;
+          height: 30vh;
+        }
+        .page-head-container{
+          margin-top: 0px;
+        }
+        .board-info-container{
+          height: auto;;
+          width: calc(100%);
+          background-color: white;
+          padding: 10px;
+        }
+        .board-member-header{
+          width: calc(100%);
+          padding: 0px;
+          height: auto;
+          color: blue;
+          float: left;
+        }
+        .board-member-header h1{
+          font-size: 30px;
+          line-height: 35px;
+          color: #154b87;
+        }
+        .board-member-header h2{
+          font-size: 15px;
+          color: grey;
+          line-height: 0;
+          margin-top: -20px;
+        }
+        .board-member-info p{
+          font-size: 13px;
+          line-height: 16px;
+        }
+        .board-members-container{
+          height: auto;
+          padding-top: 0px;
+          width: 100%;
+          margin-top: 100px;
+        }
+        .name{
+          border-left: 0 solid transparent;
+        }
+        .name:hover{
+          color: orange;
+          padding-right: 0px;
+          margin-left: 0px;
+          width: 100%;
+        }
+        .row{
+          margin-right: 0;
+        }
 }
