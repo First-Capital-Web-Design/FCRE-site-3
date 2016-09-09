@@ -43,7 +43,7 @@ p{
   margin-left: 0px;
 }
 .logo{
-  background-image: url("images/FCRE_INVESTMENTS_HOR.png") !important;
+  background-image: url("https://github.com/First-Capital-Web-Design/FCRE-site-3/blob/gh-pages/images/FCRE_INVESTMENTS_HOR.png?raw=true") !important;
   background-size: 100% 100%;
   background-position: center;
   display: block;
@@ -90,7 +90,7 @@ p{
   font-size: 20px;
   color: grey;
   line-height: 0;
-  margin-top: -20px;
+  margin-top: -5px;
 }
 .board-member-info{
   height: 55%;
